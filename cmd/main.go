@@ -1,8 +1,11 @@
 package main
 
 import (
+	"GolangCalc/internal/handlers"
 	"fmt"
 	"net/http"
+
+	"github.com/gorilla/mux"
 )
 
 func main() {
