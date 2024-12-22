@@ -1,16 +1,6 @@
 
 #  Cервис подсчета арифметических выражений
 
-<p align="center">
-  <img alt="GoLang" src="https://img.shields.io/badge/Go-v1.23.4-blue?style=flat-square&logo=go"/>
-  <img alt="Gorilla Mux" src="https://img.shields.io/badge/Gorilla%20Mux-Router-orange?style=flat-square"/>
-</p>
-<p align="center">
-  <a href="https://t.me/SOKRAT_00">
-    <img src="https://img.shields.io/badge/Telegram-sokrat_00-blue?style=for-the-badge&logo=telegram" alt="Telegram"/>
-  </a>
-</p>
-
 Этот проект представляет собой сервис для вычисления арифметических выражений, доступный через HTTP-запросы. Вы можете отправить выражение, такое как `2+2*2`, и получить результат в формате JSON.
 
 ---
@@ -107,7 +97,7 @@ curl --location --request POST 'http://localhost:8080/api/v1/calculate' \
 
 ---
 
-## 🌐 Пример с использованием Postman
+## Пример с использованием Postman
 
 1. Откройте Postman.
 2. Создайте новый запрос.
@@ -126,7 +116,7 @@ curl --location --request POST 'http://localhost:8080/api/v1/calculate' \
 
 ---
 
-## 📜 Структура проекта
+## Структура проекта
 
 ```
 .
